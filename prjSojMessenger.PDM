@@ -1,0 +1,122 @@
+[Root]
+Most Recent Package=Soj Messenger
+
+
+[Package|Soj Messenger|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Programming\Others\vb_client_foundation_winhttp\program_setup
+
+[Package|Soj Messenger|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Soj Messenger|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Soj Messenger|Files Found]
+SETUP.EXE=C:\Program Files\Microsoft Visual Studio\Common\Setup\1033\SETUP.EXE
+
+[Package|Soj Messenger|Files Released]
+
+[Package|Soj Messenger|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+C:\WINDOWS\system32\winhttp.dll=
+
+[Package|Soj Messenger|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSWINSCK.OCX=
+C:\WINDOWS\system32\ComDlg32.ocx=
+C:\WINDOWS\system32\RICHTX32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Soj Messenger|Files Added]
+E:\Programming\Others\vb_client_foundation_winhttp\Display Data\image.bmp=
+E:\Programming\Others\vb_client_foundation_winhttp\Database\Main.mdb=
+
+[Package|Soj Messenger|Files Removed]
+
+[Package|Soj Messenger|Files In Project]
+E:\Programming\Others\vb_client_foundation_winhttp\SojMessenger.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\winhttp.dll=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\ComDlg32.ocx=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\Common\Setup\1033\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\Programming\Others\vb_client_foundation_winhttp\Display Data\image.bmp=Yes
+E:\Programming\Others\vb_client_foundation_winhttp\Database\Main.mdb=Yes
+
+[Package|Soj Messenger|Configure Registry Files]
+Applicable=No
+
+[Package|Soj Messenger|Configure Remote Servers]
+Applicable=No
+
+[Package|Soj Messenger|Install Locations]
+E:\Programming\Others\vb_client_foundation_winhttp\SojMessenger.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\winhttp.dll=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\ComDlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\Common\Setup\1033\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Programming\Others\vb_client_foundation_winhttp\Display Data\image.bmp=$(AppPath)\Display Data
+E:\Programming\Others\vb_client_foundation_winhttp\Database\Main.mdb=$(AppPath)\Database
+
+[Package|Soj Messenger|Configure Shared Files]
+Applicable=Yes
+E:\Programming\Others\vb_client_foundation_winhttp\SojMessenger.exe=No
+E:\Programming\Others\vb_client_foundation_winhttp\Display Data\image.bmp=No
+E:\Programming\Others\vb_client_foundation_winhttp\Database\Main.mdb=No
+
+[Package|Soj Messenger|Distribution]
+Type=single
+Size=
+Title=Soj Messenger
+
+[Package|Soj Messenger|IconGroups]
+Group0=Soj Messenger
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Soj Messenger|Soj Messenger]
+Icon1=SojMessenger.exe
+Title1=Soj Messenger
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Soj Messenger|Package]
+PackageFolder=E:\Programming\Others\vb_client_foundation_winhttp\program_setup
+ProjectFolder=E:\Programming\Others\vb_client_foundation_winhttp
+ServerSideCab=
+File1=E:\Programming\Others\vb_client_foundation_winhttp\program_setup\setup.exe
+File2=E:\Programming\Others\vb_client_foundation_winhttp\program_setup\Setup.Lst
+File3=E:\Programming\Others\vb_client_foundation_winhttp\program_setup\SojMessenger.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
